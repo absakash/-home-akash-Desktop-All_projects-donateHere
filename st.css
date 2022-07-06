@@ -1,0 +1,212 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-image: url('images/donation6.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+.first_pra{
+    color: white;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.first_pra h1{
+    font-size: 50px;
+}
+.first_pra p{
+    font-size: 23px;
+    font-weight: bold;
+}
+.btn{
+    color: white;
+    background-color: tomato;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to left,red,rgb(241, 209, 203));
+
+}
+.donate_kotha{
+    margin-top: 40px;
+    text-align: center;
+   
+}
+.donate_kotha h1{
+    font-size: 35px;
+}
+.donate_kotha p{
+    font-size: 20px;
+}
+
+.donte_amount{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    
+}
+.amount{
+    border: 5px solid black;
+    margin-left: 20px;
+    padding: 50px;
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px gray;
+    text-align: center;
+}
+
+.fifty{
+    background-color: lightpink;
+}
+.input_area{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text{
+    padding: 15px;
+    font-size: 30px;
+    width: 60%;
+    border-radius: 15px;
+    
+}
+
+.donate_catagaory{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+.div1{
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    
+    padding: 20px;
+    
+}
+.div2{
+   
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 150px;
+    
+    padding: 20px;
+    border: 1px solid black;
+    margin-left: 60px;
+}
+.div3{
+    
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 150px;
+    
+    padding: 20px;
+    border: 1px solid black;
+    margin-left: 60px;
+}
+
+.donation_plan{
+    margin-top: 70px;
+}
+.depend{
+    margin-top: 200px;
+    display: flex;
+}
+.depend_image{
+    margin-left: 160px;
+    background-image: url(images/donation2.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+}
+.d_area{
+    width: 45%;
+    text-align: center;
+
+}
+.sec{
+    margin-top: 50px;
+}
+.depend_r{
+    margin-top: 200px;
+    display: flex;
+}
+.image{
+    margin-left: 100px;
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 600px;
+
+}
+
+.write{
+    margin-left: 350px;
+    text-align: center;
+}
+.update{
+    margin-top: 100px;
+   
+    text-align: center;
+}
+.update h1{
+    font-size: 30px;
+}
+.update p{
+    font-size: 25px;
+}
+.last{
+    margin-top: 100px;
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    background-color: bisque;
+    margin-left: 500px;
+    
+}
+.one{
+    /*  */
+    color: red;
+    
+    
+    
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+.inpu{
+    padding: 18px;
+    border-radius: 15px;
+    width: 500px;
+    font-size: 20px;
+    
+}
+footer{
+    background-color: blueviolet;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
