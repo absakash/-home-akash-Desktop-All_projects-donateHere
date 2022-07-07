@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 .first{
     background-image: url('images/donation6.jpg');
@@ -23,17 +24,22 @@ body{
     font-size: 50px;
 }
 .first_pra p{
+    
     font-size: 23px;
     font-weight: bold;
+    width: 1000px;
+    margin-left: 450px;
+    
 }
 .btn{
     color: white;
-    background-color: tomato;
+    background-color: red;
     padding:10px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
-    background-image: linear-gradient(to left,red,rgb(241, 209, 203));
+    background-image: linear-gradient(to left,red,rgb(246, 7, 51));
+
 
 }
 .donate_kotha{
@@ -42,10 +48,13 @@ body{
    
 }
 .donate_kotha h1{
-    font-size: 35px;
+    font-size: 57px;
 }
 .donate_kotha p{
     font-size: 20px;
+    
+    width: 1000px;
+    margin-left: 450px;
 }
 
 .donte_amount{
@@ -73,12 +82,19 @@ body{
     margin-top: 50px;
     text-align: center;
 }
+.amount{
+    font-size: 20px;
+}
 
 .text{
     padding: 15px;
     font-size: 30px;
-    width: 60%;
+    width: 100%;
     border-radius: 15px;
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
     
 }
 
@@ -86,39 +102,42 @@ body{
     margin-top: 30px;
     display: flex;
     flex-direction: row;
-    margin-left: 500px;
+    margin-left: 200px;
 }
 .div1{
     background-image: url(icons/food.png);
     background-repeat: no-repeat;
     border: 1px solid black;
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     
-    padding: 20px;
+    padding: 25px;
+    background-color: lightskyblue;
     
 }
 .div2{
    
     background-image: url(icons/shelter.png);
     background-repeat: no-repeat;
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     
-    padding: 20px;
+    padding: 25px;
     border: 1px solid black;
-    margin-left: 60px;
+    margin-left: 130px;
+    background-color: lightpink;
 }
 .div3{
     
     background-image: url(icons/Frame-1.png);
     background-repeat: no-repeat;
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     
-    padding: 20px;
+    padding: 25px;
     border: 1px solid black;
-    margin-left: 60px;
+    margin-left: 130px;
+    background-color: lightgray;
 }
 
 .donation_plan{
@@ -129,16 +148,29 @@ body{
     display: flex;
 }
 .depend_image{
+    margin-top: 1px;
     margin-left: 160px;
     background-image: url(images/donation2.jpg);
     background-repeat: no-repeat;
-    width: 600px;
+    width: 800px;
     height: 600px;
+    border-radius: 25px;
 }
 .d_area{
     width: 45%;
-    text-align: center;
+    margin-top: 50px;
+    
 
+}
+.d_area h1{
+    font-size: 50px;
+    text-align: left;
+    margin-left: 150px;
+}
+.d_area p{
+    font-size: 20px;
+    margin-left: 150px;
+    text-align: justify;
 }
 .sec{
     margin-top: 50px;
@@ -148,44 +180,55 @@ body{
     display: flex;
 }
 .image{
-    margin-left: 100px;
+    margin-left: 150px;
     background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
-    width: 90%;
+    width: 250%;
     height: 600px;
+    border-radius: 25px;
 
 }
 
 .write{
-    margin-left: 350px;
-    text-align: center;
+    margin-left: 200px;
+    
+}
+
+.write h1{
+    font-size: 50px;
+}
+.write p{
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: justify;
 }
 .update{
     margin-top: 100px;
-   
-    text-align: center;
 }
 .update h1{
-    font-size: 30px;
+    text-align: center;
+    font-size: 50px;
 }
 .update p{
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
 }
 .last{
     margin-top: 100px;
     position: relative;
-    height: 500px;
-    width: 1000px;
+    height: 200px;
+    width: 1300px;
     background-color: bisque;
-    margin-left: 500px;
+    margin-left: 300px;
+    border-radius: 40px;
+
     
 }
 .one{
     /*  */
     color: red;
-    
-    
-    
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
@@ -197,16 +240,30 @@ body{
 
 .inpu{
     padding: 18px;
-    border-radius: 15px;
+    border-radius: 25px;
     width: 500px;
     font-size: 20px;
+    background-color: aqua;
     
 }
+.hi{
+    border: 2px solid black;
+    padding: 18px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+}
+pi{
+    margin-left: 150px;
+}
 footer{
-    background-color: blueviolet;
-    height: 200px;
+    margin-top: 50px;
+    background-color: black;
+    height: 100px;
     width: 100%;
     color: white;
     text-align: center;
     padding-top: 20px;
+    font-family: 'Splash', cursive;
 }
